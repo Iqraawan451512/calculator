@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="main">
+
+
+    <div>
+        <input type="text" name="" id="inp">
+</div>
+<div>
+
+    <button id="clr" onclick = "clr()"> Ac  </button>
+    <button id="clr" onclick = "clr1()"> Del</button>
+    <button id="op" onclick="dabana(' /')" > /</button>
+    <button  id="op" onclick="dabana('.')">.</button>
+
+
+    
+</div>
+<div>
+    <button onclick="dabana(7)">7</button>
+    <button onclick="dabana(8)">8</button>
+    <button onclick="dabana(9)">9</button>
+    <button id="op" onclick="dabana('+')">+</button>
+
+</div>
+<div>
+    <button onclick="dabana(4)">4</button>
+    <button onclick="dabana(5)">5</button>
+    <button onclick="dabana(6)">6</button>
+    <button  id="op" onclick="dabana('-')">-</button>
+</div>
+<div>
+    <button onclick="dabana(1)">1</button>
+    <button onclick="dabana(2)">2</button>
+    <button onclick="dabana(3)">3</button>
+    <button id="op" onclick="dabana('*')" >*</button>     
+
+
+</div>
+<div>
+    <button onclick="dabana(0)">0</button>
+    <button onclick="dabana(00)">00</button>
+    <button id="op" onclick="dabana('%')">%</button>
+
+   <button id="eq" onclick ="eq()">=</button>
+</div>
+    </div>
+<script src="cal.js"></script>  
+</body>
+</html>
